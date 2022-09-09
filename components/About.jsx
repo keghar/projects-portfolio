@@ -10,7 +10,7 @@ const About = () => {
           </p>
           <h2 className="py-2 text-gray-600">Who Am I</h2>
           <p className="py-2 text-gray-600">
-            // Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est,
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est,
             corrupti.
           </p>
           <p className="py-2 text-gray-600">
@@ -32,11 +32,13 @@ const About = () => {
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 s">
-          <img
-            className="rounded-xl hidden md:block"
-            src="/assets/headshot.png"
-            alt="/"
-          />
+          <picture>
+            <img
+              className="rounded-xl hidden md:block"
+              src="/assets/headshot.png"
+              alt="/"
+            />
+          </picture>
         </div>
       </div>
     </div>
