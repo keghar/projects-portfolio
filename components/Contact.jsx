@@ -62,6 +62,7 @@ const Contact = () => {
             <div className="p-4">
               <form
                 name="contact"
+                method="POST"
                 data-netlify="true"
                 action="/"
                 netlify-honeypot="bot-field"
@@ -73,6 +74,7 @@ const Contact = () => {
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      name="name"
                     />
                   </div>
 
@@ -83,6 +85,7 @@ const Contact = () => {
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      name="phone"
                     />
                   </div>
                 </div>
@@ -91,6 +94,7 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
+                    name="email"
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -105,6 +109,7 @@ const Contact = () => {
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
+                    name="message"
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">
