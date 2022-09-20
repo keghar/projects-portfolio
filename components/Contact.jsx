@@ -111,7 +111,7 @@ const Contact = () => {
                   Send Message
                 </button>
 
-                <label class="hidden">
+                <label className="hidden">
                   Don't Fill this out if youre human:
                   <input name="bot-field" />
                 </label>
