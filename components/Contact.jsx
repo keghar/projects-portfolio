@@ -102,6 +102,7 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
+                    name="subject"
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -112,7 +113,7 @@ const Contact = () => {
                     name="message"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4">
+                <button className="w-full p-4 text-gray-100 mt-4" type="submit">
                   Send Message
                 </button>
 
