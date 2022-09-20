@@ -4,6 +4,7 @@ import GitHub from "../public/assets/github1.png";
 import JavaScript from "../public/assets/javascript.png";
 import CSS from "../public/assets/css.png";
 import HTML from "../public/assets/html1.png";
+import TailwindCss from "../public/assets/tailwindcss.png";
 
 function Skills() {
   return (
@@ -45,21 +46,16 @@ function Skills() {
             </div>
           </div>
 
-          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/react.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <Image src={TailwindCss} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center ">
-                <h2>React</h2>
+                <h2>Tailwind CSS</h2>
               </div>
             </div>
-          </div> */}
+          </div>
 
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">

@@ -10,22 +10,19 @@ const About = () => {
           </p>
           <h2 className="py-2 text-gray-600">Who Am I</h2>
           <p className="py-2 text-gray-600">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est,
-            corrupti.
+            My name is Kegan Harris and I am from the Gulf Coast area of Alabama
           </p>
           <p className="py-2 text-gray-600">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
-            libero nisi voluptatum eius omnis, in aliquid unde fugit! Assumenda
-            reiciendis provident facilis id perferendis nostrum itaque optio.
-            Quia nihil officia necessitatibus corrupti. Error reiciendis
-            consequatur distinctio fuga aut mollitia harum.
+            I've spent most of my life working with my hands. From being head of
+            maintenance to becoming a technician, repairing appliances,
+            developing the skill of problem-solving became one of the greatest
+            skills I could learn in my life. Since 2020 I have been pursuing my
+            desire to work in technology, where I could use my skill of
+            problem-solving, by becoming a full-stack developer.
           </p>
           <p className="py-2 text-gray-600">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-            inventore fuga aliquid veritatis accusantium doloribus dignissimos
-            nobis dolores dolor voluptates, pariatur dolorem fugiat quisquam
-            qui, commodi expedita veniam dolore minima porro cupiditate!
-            Nesciunt id voluptates accusantium natus blanditiis, quas eius.
+            I am available for hire for any type of project. I love to learn, so
+            the more challenging the project the better. Contact me below
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointers">
             Check out some of my projects
