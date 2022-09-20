@@ -12,7 +12,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/html.png"
+                  src="/../public/assets/html1.png"
                   width="64px"
                   height="64px"
                   alt="/"
