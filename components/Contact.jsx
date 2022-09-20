@@ -64,7 +64,7 @@ const Contact = () => {
                 name="contact"
                 data-netlify="true"
                 action="/"
-                netlify-honeypot="botfield"
+                netlify-honeypot="bot-field"
               >
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="grid grid-cols-2 gap-4 w-full py-2">
@@ -110,7 +110,8 @@ const Contact = () => {
                 <button className="w-full p-4 text-gray-100 mt-4">
                   Send Message
                 </button>
-                <label className="hidden">
+
+                <label class="hidden">
                   Don't Fill this out if youre human:
                   <input name="bot-field" />
                 </label>
