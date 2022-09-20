@@ -1,5 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import GitHub from "../public/assets/github1.png";
+import JavaScript from "../public/assets/javascript.png";
+import CSS from "../public/assets/css.png";
+import HTML from "../public/assets/html1.png";
 
 function Skills() {
   return (
@@ -11,12 +15,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/html1.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />{" "}
+                <Image src={HTML} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center ">
                 <h2>HTML</h2>
@@ -27,12 +26,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/css.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <Image src={CSS} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center ">
                 <h2>CSS</h2>
@@ -43,12 +37,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/javascript.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <Image src={JavaScript} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center ">
                 <h2>JavaScript</h2>
@@ -56,7 +45,7 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -70,17 +59,12 @@ function Skills() {
                 <h2>React</h2>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/github1.png"
-                  width="64px"
-                  height="64px"
-                  alt="/"
-                />
+                <Image src={GitHub} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center ">
                 <h2>GitHub</h2>
