@@ -10,15 +10,15 @@ const Main = () => {
       <div className="max-w-[1240px] w-f h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
-            Let's Build something together
+            Developer Portfolio
           </p>
           <h1 className="py-4 text-gray-700">
             Hi, I'm <span className="text-[#6ab7dd]">Kegan</span>
           </h1>
-          <h1 className="py-4 text-gray-700">A Full Stack Developer</h1>
+          <h1 className="py-4 text-gray-700">A Full-Stack Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%} m-auto">
             I am a full-stack developer with skills in HTML, CSS, JavaScript,
-            Next.js. I am currently learning backend development.
+            Next.js, and Node.js. I am currently learning backend development.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a href="http://www.linkedin.com/in/keganharris">
