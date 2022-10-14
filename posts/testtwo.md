@@ -1,8 +1,8 @@
 ---
 title: "Test 2 Post"
-date: "Today"
+date: "October 14, 2022"
 excerpt: "This is the Excerpt"
-cover_image: /assets/posts/treeimg.jpg
+cover_image: /assets/posts/tree3img.jpeg
 ---
 
 ## Heading 2
