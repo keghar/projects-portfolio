@@ -19,7 +19,7 @@ export default function blog({posts}) {
     <div className="px-6">
     <div className="w-full h-screen text-center">
       <div className="max-w-[1240px] mx-auto h-full p-2 flex justify-center items-center">
-        <div className="mt-[-400px]">
+        <div className="mt-[-50px]">
           <p className="uppercase text-sm tracking-widest text-gray-600">
             My journey into tech...
           </p>
