@@ -38,8 +38,8 @@ export default function blog({posts}) {
            
               
               {posts.map((post, index) => (
-                 <div className="relative flex items-center jestify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:scale-105 ease-in duration-300">
-             <Post key={index} post={post} /></div>
+                 
+             <Post key={index} post={post} />
               ))}
              
             </div>
