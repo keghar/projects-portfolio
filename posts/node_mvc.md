@@ -2,7 +2,7 @@
 title: "CRUD App and MVC"
 date: "November 4, 2022"
 excerpt: "Creating CRUD apps in Node using MVC."
-cover_image: /assets/posts/MVC.png
+cover_image: /assets/posts/mvc.jpg
 ---
 
 ## NODE.JS and CREATE READ UPDATE DELETE(CRUD)
